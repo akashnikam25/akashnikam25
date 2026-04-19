@@ -11,7 +11,7 @@
 | Project | Description | Stack |
 |---|---|---|
 | **[Arken-AI](https://github.com/Arken-AI)** | Natural language heat exchanger design platform — 16-step calculation pipeline, bounded AI review, real-time SSE streaming | Python, FastAPI, React, LLMs |
-| **[SmartHireX](https://github.com/SmartHireX)** | AI job-applying platform with LLM-powered job matching and resume evaluation | Python, TypeScript, LLMs |
+| **[SmartHireX](https://github.com/SmartHireX)** | AI job-applying platform — LLM-powered job matching, resume evaluation, LinkedIn & Naukri scraping | Python, TypeScript, LLMs |
 
 ---
 
@@ -22,11 +22,27 @@
 | **AI Agents** | Agentic AI, Deterministic LLM, Claude, MCP | [personal-agent](https://github.com/akashnikam25/personal-agent) · [smart-job-matcher](https://github.com/akashnikam25/smart-job-matcher) · [resume-tailor](https://github.com/akashnikam25/resume-tailor) |
 | **Backend** | Go, gRPC, Protocol Buffers, REST, microservices | [course-app-with-jwt](https://github.com/akashnikam25/course-app-with-jwt) · [google_analytics](https://github.com/akashnikam25/google_analytics) |
 | **Languages** | Go · Python · C++ · TypeScript · JavaScript | — |
-| **Frontend** | React, Vite, TypeScript | [2dmetaverseapp](https://github.com/akashnikam25/2dmetaverseapp) · [webrtcp2p](https://github.com/akashnikam25/webrtcp2p) |
-| **Data** | MongoDB, Redis, CouchDB, event-driven pipelines | — |
+| **Frontend** | React, Vite, TypeScript, JavaScript | [2dmetaverseapp](https://github.com/akashnikam25/2dmetaverseapp) · [webrtcp2p](https://github.com/akashnikam25/webrtcp2p) |
+| **Data** | MongoDB, Redis, CouchDB, DynamoDB, event-driven pipelines | — |
 | **DevOps** | Docker, Kubernetes, Nginx | — |
 | **Protocols** | CAN, real-time systems, embedded domain logic | — |
 | **Testing** | Unit, Integration, BDD, Playwright | — |
+
+---
+
+### 📈 Contribution Activity (Jan 2026 – Present)
+
+> Most of my active work lives in private org repos at **@Arken-AI** and **@SmartHireX**. Here's the real picture:
+
+| Org / Repo | PRs Merged | Period | Highlights |
+|---|---|---|---|
+| **Arken-AI / hx_design_engine** | 11 merged | Feb–Apr 2026 | Hx design phase 1 & 2, escalation history, multi-shell validation |
+| **Arken-AI / backend** | 4 merged | Feb–Apr 2026 | Backend API, report config refactor, narrative generation logic |
+| **Arken-AI / frontend** | 4 merged | Feb–Apr 2026 | PFD capture, single equipment analysis, UI overlays |
+| **SmartHireX** | Active | Jan–Sep 2025 | Resume tailor, job scraping (LinkedIn & Naukri → DynamoDB), frontend |
+| **Personal repos** | Ongoing | 2024–2026 | personal-agent, resume-tailor, smart-job-matcher, 2dmetaverseapp |
+
+> 🔒 Arken-AI and SmartHireX repos are private — contributions show in the green graph but not in the stats widget below.
 
 ---
 
@@ -37,11 +53,12 @@
 - Rolled out across 3–4 engineering teams; active engineering time reduced by **50–70%**
 - Selected for **2-week on-site validation in Germany** — product owner: *"I am blown away by what you have developed"*
 - Built real-time machine visualization UI using AI-assisted development (GitHub Copilot)
+- CAN-based communication integration, telemetry pipelines, cross-repo data correction
 
 **Member of Technical Staff @ Mavenir** *(Mar 2022 – Oct 2023)*
 - Built high-frequency polling service in Go — polls CouchDB every 100ms, goroutines + channels for non-blocking throughput
 - Redesigned OpenAPI specs in Go, fully configurable for future version changes
-- Contributed to NWDAF microservice architecture
+- Contributed to NWDAF microservice architecture on Go
 
 ---
 
@@ -55,8 +72,8 @@
 ### 📊 GitHub Stats
 
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=akashnikam25&show_icons=true&theme=dark&hide_border=true&count_private=true" alt="Akash's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akashnikam25&layout=compact&theme=dark&hide_border=true" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api?username=akashnikam25&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true" alt="Akash's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akashnikam25&layout=compact&theme=dark&hide_border=true&count_private=true" alt="Top Languages" />
 </p>
 
 <p align="left">
@@ -71,6 +88,7 @@
 - Go microservices, gRPC, Protocol Buffers
 - Agentic AI systems using Claude, MCP, sub-agents
 - Real-time systems, CAN bus, embedded domain logic
+- Heat exchanger design automation (seriously)
 
 ---
 
