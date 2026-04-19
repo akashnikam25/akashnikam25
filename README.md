@@ -21,9 +21,9 @@
 |---|---|---|
 | **AI Agents** | Agentic AI, Deterministic LLM, Claude, MCP | [personal-agent](https://github.com/akashnikam25/personal-agent) · [smart-job-matcher](https://github.com/akashnikam25/smart-job-matcher) · [resume-tailor](https://github.com/akashnikam25/resume-tailor) |
 | **Backend** | Go, gRPC, Protocol Buffers, REST, microservices | [course-app-with-jwt](https://github.com/akashnikam25/course-app-with-jwt) · [google_analytics](https://github.com/akashnikam25/google_analytics) |
-| **Languages** | Go · Python · C++ · TypeScript · JavaScript | — |
+| **Languages** | Go · Python · C++ · TypeScript · JavaScript | [smart-job-matcher](https://github.com/akashnikam25/smart-job-matcher) · [generatedummydata](https://github.com/akashnikam25/generatedummydata) · [paytmapp](https://github.com/akashnikam25/paytmapp) |
 | **Frontend** | React, Vite, TypeScript, JavaScript | [2dmetaverseapp](https://github.com/akashnikam25/2dmetaverseapp) · [webrtcp2p](https://github.com/akashnikam25/webrtcp2p) |
-| **Data** | MongoDB, Redis, CouchDB, DynamoDB, event-driven pipelines | — |
+| **Data** | MongoDB, Redis, CouchDB, DynamoDB, event-driven pipelines | [dice](https://github.com/akashnikam25/dice) |
 | **DevOps** | Docker, Kubernetes, Nginx | — |
 | **Protocols** | CAN, real-time systems, embedded domain logic | — |
 | **Testing** | Unit, Integration, BDD, Playwright | — |
