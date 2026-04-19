@@ -30,19 +30,34 @@
 
 ---
 
-### 📈 Contribution Activity (Jan 2026 – Present)
+### 📈 Real Contribution Stats *(as of Apr 2026)*
 
-> Most of my active work lives in private org repos at **@Arken-AI** and **@SmartHireX**. Here's the real picture:
+> The automated widget below undercounts because most work is in **private org repos** (@Arken-AI, @SmartHireX). Here are the actual numbers:
 
-| Org / Repo | PRs Merged | Period | Highlights |
-|---|---|---|---|
-| **Arken-AI / hx_design_engine** | 11 merged | Feb–Apr 2026 | Hx design phase 1 & 2, escalation history, multi-shell validation |
-| **Arken-AI / backend** | 4 merged | Feb–Apr 2026 | Backend API, report config refactor, narrative generation logic |
-| **Arken-AI / frontend** | 4 merged | Feb–Apr 2026 | PFD capture, single equipment analysis, UI overlays |
-| **SmartHireX** | Active | Jan–Sep 2025 | Resume tailor, job scraping (LinkedIn & Naukri → DynamoDB), frontend |
-| **Personal repos** | Ongoing | 2024–2026 | personal-agent, resume-tailor, smart-job-matcher, 2dmetaverseapp |
+| Metric | Count | Notes |
+|---|---|---|
+| ⭐ Total Stars Earned | 1 | Public repos |
+| 🔁 Total Commits (all time) | 118+ | Public + private org repos |
+| 🔀 Total PRs Created | 37 | Across personal + Arken-AI + SmartHireX |
+| ✅ Total PRs Merged | 26+ | hx_design_engine(11), backend(4), frontend(4), SmartHireX(2+), personal(1+) |
+| 👁️ Code Reviews Done | 4 | Arken-AI/backend, Arken-AI/frontend, SmartHireX |
+| 🏢 Orgs Contributed To | 3 | @Arken-AI · @SmartHireX · @floss-fund |
+| 🔥 Current Streak | 31 days | Mar 20 – Apr 19, 2026 |
+| 📅 Total Contributions | 1,029 | Aug 2022 – Present |
+| 📆 Longest Streak | 56 days | Dec 19, 2025 – Feb 12, 2026 |
 
-> 🔒 Arken-AI and SmartHireX repos are private — contributions show in the green graph but not in the stats widget below.
+---
+
+### 📊 GitHub Stats *(public repos only — see table above for full picture)*
+
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=akashnikam25&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true" alt="Akash's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akashnikam25&layout=compact&theme=dark&hide_border=true&count_private=true" alt="Top Languages" />
+</p>
+
+<p align="left">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=akashnikam25&theme=dark&hide_border=true" alt="GitHub Streak" />
+</p>
 
 ---
 
@@ -66,19 +81,6 @@
 
 - 🤖 **Claude with the Anthropic API** — Anthropic *(Apr 2026)*
 - 🤖 **Sub-Agent Skill** — Anthropic *(Apr 2026)*
-
----
-
-### 📊 GitHub Stats
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=akashnikam25&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true" alt="Akash's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akashnikam25&layout=compact&theme=dark&hide_border=true&count_private=true" alt="Top Languages" />
-</p>
-
-<p align="left">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=akashnikam25&theme=dark&hide_border=true" alt="GitHub Streak" />
-</p>
 
 ---
 
