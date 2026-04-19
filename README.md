@@ -32,7 +32,6 @@
 
 ### 📈 Real Contribution Stats *(as of Apr 2026)*
 
-> The automated widget below undercounts because most work is in **private org repos** (@Arken-AI, @SmartHireX). Here are the actual numbers:
 
 | Metric | Count | Notes |
 |---|---|---|
