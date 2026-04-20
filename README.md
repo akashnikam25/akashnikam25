@@ -89,3 +89,17 @@
 ---
 
 *"I work at the intersection of backend engineering and applied AI — not as a researcher, but as someone who ships things and then builds the tooling that makes shipping faster."*
+
+---
+
+### 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=akashnikam25&layout=compact&theme=default" alt="Most Used Languages" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://github-readme-stats.vercel.app/api?username=akashnikam25&show_icons=true&theme=default&count_private=true" alt="GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=akashnikam25&theme=default" alt="GitHub Streak" />
+</p>
