@@ -12,6 +12,7 @@
 |---|---|---|
 | **[Arken-AI](https://github.com/Arken-AI)** | Natural language heat exchanger design platform — 16-step calculation pipeline, bounded AI review, real-time SSE streaming | Python, FastAPI, React, LLMs |
 | **[SmartHireX](https://github.com/SmartHireX)** | AI job-applying platform — LLM-powered job matching, resume evaluation, LinkedIn & Naukri scraping | Python, TypeScript, LLMs |
+| **[cortex](https://github.com/akashnikam25/cortex)** | Self-building knowledge layer — turns any engineering team's codebase, tickets, docs, and decisions into context-aware AI agents | TypeScript, LLMs, MCP |
 
 ---
 
@@ -19,7 +20,7 @@
 
 | Domain | Skills / Tools | Projects |
 |---|---|---|
-| **AI Agents** | Agentic AI, Deterministic LLM, Claude, MCP | [personal-agent](https://github.com/akashnikam25/personal-agent) · [smart-job-matcher](https://github.com/akashnikam25/smart-job-matcher) · [resume-tailor](https://github.com/akashnikam25/resume-tailor) |
+| **AI Agents** | Agentic AI, Deterministic LLM, Claude, MCP | [personal-agent](https://github.com/akashnikam25/personal-agent) · [smart-job-matcher](https://github.com/akashnikam25/smart-job-matcher) · [resume-tailor](https://github.com/akashnikam25/resume-tailor) · [cortex](https://github.com/akashnikam25/cortex) |
 | **Backend** | Go, gRPC, Protocol Buffers, REST, microservices | [course-app-with-jwt](https://github.com/akashnikam25/course-app-with-jwt) · [google_analytics](https://github.com/akashnikam25/google_analytics) |
 | **Languages** | Go · Python · C++ · TypeScript · JavaScript | [smart-job-matcher](https://github.com/akashnikam25/smart-job-matcher) · [generatedummydata](https://github.com/akashnikam25/generatedummydata) · [paytmapp](https://github.com/akashnikam25/paytmapp) |
 | **Frontend** | React, Vite, TypeScript, JavaScript | [2dmetaverseapp](https://github.com/akashnikam25/2dmetaverseapp) · [webrtcp2p](https://github.com/akashnikam25/webrtcp2p) |
@@ -30,26 +31,26 @@
 
 ---
 
-### 📈 Real Contribution Stats *(as of Apr 2026)*
-
+### 📈 Real Contribution Stats *(as of May 2026)*
 
 | Metric | Count | Notes |
 |---|---|---|
-| ⭐ Total Stars Earned | 1 | Public repos |
-| 🔁 Total Commits (all time) | 118+ | Public + private org repos |
-| 🔀 Total PRs Created | 37 | Across personal + Arken-AI + SmartHireX |
-| ✅ Total PRs Merged | 26+ | hx_design_engine(11), backend(4), frontend(4), SmartHireX(2+), personal(1+) |
+| ⭐ Total Stars Earned | 6+ | Public repos |
+| 🔁 Total Commits (all time) | 190+ | Public + private org repos |
+| 🔀 Total PRs Created | 39+ | Across personal + Arken-AI + SmartHireX |
+| ✅ Total PRs Merged | 28+ | hx_design_engine(12), backend(4), frontend(4), SmartHireX(2+), personal(1+), PlantIQ(1+) |
 | 👁️ Code Reviews Done | 4 | Arken-AI/backend, Arken-AI/frontend, SmartHireX |
 | 🏢 Orgs Contributed To | 3 | @Arken-AI · @SmartHireX · @floss-fund |
-| 🔥 Current Streak | 31 days | Mar 20 – Apr 19, 2026 |
-| 📅 Total Contributions | 1,029 | Aug 2022 – Present |
-| 📆 Longest Streak | 56 days | Dec 19, 2025 – Feb 12, 2026 |
+| 🔥 Current Streak | Active | May 2026 |
+| 📅 Total Contributions | 1,025+ | Last year (Aug 2022 – Present) |
+| 🗓️ Longest Streak | 56 days | Dec 19, 2025 – Feb 12, 2026 |
 
 ---
 
 ### 💼 Experience
 
 **Senior Software Engineer @ John Deere India Pvt. Ltd.** *(Oct 2023 – Present)*
+
 - Designed & deployed a **12-agent AI SDLC system** — business context → epic creation → user story writing → code review → bug triage
 - Rolled out across 3–4 engineering teams; active engineering time reduced by **50–70%**
 - Selected for **2-week on-site validation in Germany** — product owner: *"I am blown away by what you have developed"*
@@ -57,6 +58,7 @@
 - CAN-based communication integration, telemetry pipelines, cross-repo data correction
 
 **Member of Technical Staff @ Mavenir** *(Mar 2022 – Oct 2023)*
+
 - Built high-frequency polling service in Go — polls CouchDB every 100ms, goroutines + channels for non-blocking throughput
 - Redesigned OpenAPI specs in Go, fully configurable for future version changes
 - Contributed to NWDAF microservice architecture on Go
