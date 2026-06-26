@@ -49,15 +49,23 @@
 
 **Senior Software Engineer @ John Deere India Pvt. Ltd.** *(Oct 2023 - Present)*
 
-- Architected a **12-agent AI platform** automating the full SDLC (epics, user stories, bug triage, code review, infra docs) on a durable LangGraph orchestration layer; deployed across 3-4 teams, cutting engineering time **50-70%**.
-- Integrated Azure DevOps and Confluence into GitHub Copilot via **MCP servers** for context-aware, backlog-grounded agents.
-- Built a **code knowledge graph** (PageRank + dependency visualization) and a **graph-based RAG** retriever that grounds agents in real code.
-- Built a **production RAG platform**: 3-lane hybrid retrieval (Qdrant), multi-tenant isolation, cross-model eval harness, 6-layer fallback with zero silent failures.
+- Architected a **12-agent AI platform** automating the full SDLC (epics, user stories, bug triage, code review, infra docs) with specialized agents (planner, developer, reviewer, static-analyzer, link-tester) on a durable **LangGraph** orchestration layer. Deployed across 3-4 teams, cutting engineering time **50-70%**.
+- Integrated Azure DevOps and Confluence into GitHub Copilot via **MCP servers**: agents pull live Confluence context and write to ADO (epics, stories, bugs), turning Copilot into a context-aware, backlog-grounded project tool.
+- Built a **code knowledge graph** that parses the codebase into a call/dependency graph, ranks the most important nodes with **PageRank**, and renders an interactive dependency visualization.
+- Engineered a **graph-based RAG** retriever that grounds agents in real code by blending keyword search, PageRank importance, and graph-neighbor proximity, suppressing hallucination.
+- Designed **durable, local-first execution** with a custom LangGraph checkpointer over SQLite: resumable, crash-safe agent runs with no central server.
+- Wired agents into **automated quality gates** (lint, type-check, test, smoke-test, duplicate-detection) run by dedicated reviewer, static-analyzer, and link-tester agents as merge blockers.
+- Rolled out the platform across 3-4 teams via hands-on KT, shifting engineers from writing to reviewing and validating AI output behind a structured quality-gate process.
+- Built a real-time **machine visualization UI** from scratch with GitHub Copilot, delivered ~50% faster than the traditional estimate.
+- Built a **production RAG platform**: 3-lane hybrid retrieval (Qdrant BM25 + dense + entity graph, RRF fusion) with correction and outcome boosting synced into the vector payload.
+- Hardened it for production: **multi-tenant isolation** (RBAC, prompt-injection defence, append-only audit log), a cross-model **eval harness** (Opus + GPT-4o, >5% regression blocks CI), and a 6-layer fallback with zero silent failures.
 
 **Member of Technical Staff @ Mavenir** *(Mar 2022 - Oct 2023)*
 
-- Built a high-frequency Go polling service (CouchDB every 100ms, goroutines + channels) for non-blocking throughput at telecom scale.
-- Versioned OpenAPI specs in Go; contributed to NWDAF microservices on Kubernetes.
+- Built a high-frequency **Go polling service**: polls CouchDB every 100ms, matches epoch-time triggers, dispatches notifications, and auto-expires entries, using goroutines and channels for concurrent, non-blocking delivery at telecom scale.
+- Used **SingleStore** for distributed data storage across Go microservices in production: query model, distributed data patterns, and real-time performance.
+- Designed versioned **OpenAPI specs** in Go, making APIs configurable across versions and cutting migration effort.
+- Contributed to **NWDAF** on a Go microservice architecture deployed on **Kubernetes**: service-to-service APIs and distributed state management.
 
 ---
 
