@@ -4,6 +4,8 @@
 
 > Building AI agents and the production backends that ship them. Making engineering teams **50-70% faster**.
 
+![Profile views](https://komarev.com/ghpvc/?username=akashnikam25&label=Profile%20views&color=0e75b6&style=flat)
+
 ---
 
 ### 🚀 What I'm Building
