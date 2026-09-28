@@ -42,7 +42,7 @@
 **Senior Software Engineer @ John Deere India Pvt. Ltd.** *(Oct 2023 - Present, Pune, Hybrid)*
 
 **EmbAI-ASCENT** — governed VS Code extension for the engineering SDLC:
-- Built a governed extension distributing vetted "agent packs" via a custom CLI (Agent Package Manager), with 3 **MCP servers** (Azure DevOps, Confluence, GitHub Enterprise) and 4 custom LM tools wired into Copilot Chat.
+- Built a governed extension distributing vetted "agent packs" via a custom CLI (Agent Package Manager), with 3 **MCP servers** (JIRA, Confluence, GitHub Enterprise) and 4 custom LM tools wired into Copilot Chat.
 - Designed a **13-phase context-engineering** webview with keyword-scoring context assembly and session-state continuity, so engineers can resume multi-day planning threads without losing context.
 
 **PlantIQ (Plant Brain)** — RAG copilot for plant-floor maintenance:
