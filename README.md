@@ -1,91 +1,98 @@
 # Hi there 👋, I'm Akash Nikam
 
-## AI Engineer · Agentic AI, RAG & LLM Platforms
+### AI Engineer · Agentic AI, RAG & MCP
 
-> Building production AI agents, RAG pipelines, and the backend platforms that ship them.
+> I build AI agents that engineers and technicians use every day, and the evaluation that keeps them honest.
 
-![Profile views](https://komarev.com/ghpvc/?username=akashnikam25&label=Profile%20views&color=0e75b6&style=flat)
+Senior Software Engineer at **John Deere** (Pune, India). Open to AI Engineer and Forward Deployed roles.
 
----
+[🌐 akashnikam.in](https://www.akashnikam.in) · [💼 LinkedIn](https://www.linkedin.com/in/akash-nikam-profile/) · [📄 Resume](https://www.akashnikam.in/Akash_Nikam_Resume.pdf) · [✉️ akashvnikam@gmail.com](mailto:akashvnikam@gmail.com)
 
-### 🚀 What I'm Building
-
-| Project | Description | Stack |
-|---|---|---|
-| **[Arken-AI](https://github.com/Arken-AI)** | Conversational AI engineering platform: orchestration routes natural language to Claude via a YAML tool registry, a bounded 4-layer pipeline (deterministic calculation, hard-rule validation, Claude review, state accumulation), and real-time SSE over Redis Streams to a React UI | Python, FastAPI, React/TS, Claude |
-| **[ZapBridge](https://github.com/akashnikam25/zapbridge)** | Event-driven GitHub-to-Slack agent platform: OAuth 2.0 (Fernet-encrypted), HMAC-SHA256 timing-safe webhook validation, Redis SETNX idempotency, an RQ async worker with retry/dead-letter handling, and a Claude summarization agent | Python, FastAPI, Redis, Claude |
-| **[Personal Agent](https://github.com/akashnikam25/personal-agent)** | Self-hosted AI assistant built on agentic patterns and MCP tooling — an LLM-maintained knowledge base that ingests dropped documents into an interlinked, cross-referenced wiki | Python, MCP, Claude |
+![Profile views](https://komarev.com/ghpvc/?username=akashnikam25&label=Profile%20views&color=1d4ed8&style=flat)
 
 ---
 
-### 🛠️ Tech Stack
+### 📊 In production
 
-| Domain | Skills / Tools |
+| | |
 |---|---|
-| **AI & Agents** | Agentic AI, Agentic RAG, Multi-Agent Systems, RAG, MCP, LLM-as-Judge Evaluation, LangGraph, LangChain, AWS Bedrock, Hybrid Search (BM25 + RRF), Vector Search (Qdrant / OpenSearch), Context & Prompt Engineering, AI Agent Governance |
-| **Backend** | Python, FastAPI, Go, gRPC, Protocol Buffers, REST APIs, Microservices |
-| **Frontend** | TypeScript, React + Vite, JavaScript, WebRTC, SSE / Streaming |
-| **Databases** | Postgres, MongoDB, Redis, DynamoDB, CouchDB, Singlestore |
-| **DevOps & Infra** | Docker, Kubernetes, Nginx, CI/CD, GitHub Actions |
+| **500+** | engineers use the multi-agent developer assistant |
+| **200+** | MCP tools that act as the signed-in user |
+| **76% → 92%** | retrieval recall@10 on the maintenance copilot |
+| **85% → 99%** | safety pass rate under a zero-failure release gate |
 
 ---
 
-### 📈 GitHub Activity
+### 🏭 Work at John Deere
 
-![Akash's GitHub stats](https://github-readme-stats.vercel.app/api?username=akashnikam25&show_icons=true&theme=default&hide_border=true)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=akashnikam25&layout=compact&hide_border=true)
+Described without internal names, data or code. Full write-ups are on my site.
+
+**Multi-agent developer assistant** · 500+ engineers · [case study →](https://www.akashnikam.in/work/developer-assistant/)
+One governed assistant in Slack, the CLI, VS Code and the web, on AWS Bedrock. A cheap hybrid router sends most requests to one specialist agent, 40 agents are built on reusable skills, and 200+ MCP tools act with the user's own permissions. An LLM-as-judge eval gate runs on every model, prompt and tool change.
+
+**Plant-maintenance RAG copilot** · 30+ technicians · [case study →](https://www.akashnikam.in/work/maintenance-copilot/)
+Grounded answers on shop-floor tablets from 500+ SOPs and 3,000+ work orders a year. Filter-first hybrid search and reranking on PostgreSQL + pgvector raised recall@10 from 76% to 92%. Guardrails run in code, and a release gate with zero safety failures took the safety pass rate from 85% to 99%. It says "no approved procedure found" instead of guessing.
+
+**AI-assisted SDLC** · 30+ teams · [case study →](https://www.akashnikam.in/work/ai-assisted-sdlc/)
+A governed VS Code extension that ships custom Copilot and Claude Code agents for business and technical context, epics, stories, plans, diff-scoped review and bug reports, with 3 MCP servers into Jira, Confluence and GitHub Enterprise.
+
+---
+
+### 🚀 Open source
+
+| Project | What it is | Stack |
+|---|---|---|
+| **[Arken AI](https://github.com/Arken-AI)** · [case study](https://www.akashnikam.in/work/arken-ai/) | Turns plain-English requirements into audited heat-exchanger designs. Claude drives a 16-step engineering pipeline through YAML-defined tools and reviews each step, but deterministic math and hard engineering rules always win. Live progress streams over Redis Streams SSE. Co-built with [@PranitDhane](https://github.com/PranitDhane). | Python, FastAPI, Claude, Redis, MongoDB, React |
+| **[ZapBridge](https://github.com/akashnikam25/zapbridge)** | GitHub-to-Slack event bridge: HMAC-verified webhooks, Redis idempotency so retries never double-post, an RQ queue with retries and a failed-job window, OAuth with Fernet-encrypted tokens, and Claude summaries. | Python, FastAPI, PostgreSQL, Redis, Claude |
+| **[Personal Agent](https://github.com/akashnikam25/personal-agent)** | A schema that lets a coding agent (Claude Code, Copilot or Codex) maintain an interlinked Markdown knowledge base from dropped documents, using content hashes to detect changes. | Markdown, Bash, Python |
+
+---
+
+### 🛠️ Tech stack
+
+| Area | Tools |
+|---|---|
+| **AI & agents** | Agentic AI, multi-agent systems, RAG, MCP, LLM evaluation (LLM-as-judge), context engineering, agent memory, guardrails, LangGraph, Strands SDK, AWS Bedrock, Claude Code |
+| **Retrieval** | Hybrid search (BM25 + RRF), reranking, pgvector |
+| **Backend** | Python, FastAPI, Go, REST, OpenAPI, microservices, Redis Streams, RQ |
+| **Frontend** | React, TypeScript, JavaScript, SSE streaming |
+| **Data** | PostgreSQL + pgvector, MySQL, MongoDB, Redis, CouchDB, SingleStore, FalkorDB |
+| **Infra & ops** | Docker, Kubernetes, CI/CD, GitHub Actions, Langfuse |
 
 ---
 
 ### 💼 Experience
 
-**Senior Software Engineer @ John Deere India Pvt. Ltd.** *(Oct 2023 - Present, Pune, Hybrid)*
+**Senior Software Engineer · John Deere** · *Oct 2023 – present · Pune*
+AI agents and backend: the three systems above. Worked on site with technicians at a plant in Germany.
 
-**EmbAI-ASCENT** — governed VS Code extension for the engineering SDLC:
-- Built a governed extension distributing vetted "agent packs" via a custom CLI (Agent Package Manager), with 3 **MCP servers** (JIRA, Confluence, GitHub Enterprise) and 4 custom LM tools wired into Copilot Chat.
-- Designed a **13-phase context-engineering** webview with keyword-scoring context assembly and session-state continuity, so engineers can resume multi-day planning threads without losing context.
+**Graduate Engineer → Member of Technical Staff I · Mavenir** · *Mar 2021 – Oct 2023*
+Go microservices on Kubernetes for telecom analytics (NWDAF): a notification service polling every 100 ms with goroutines and channels, versioned OpenAPI specs, SingleStore for distributed storage.
 
-**PlantIQ (Plant Brain)** — RAG copilot for plant-floor maintenance:
-- Built an access-controlled **RAG copilot** for maintenance technicians: hybrid BM25 + dense retrieval fused via **Reciprocal Rank Fusion** over Docling-chunked SOPs, serving at **P95 268ms**.
-- Hardened it with deterministic fail-closed guardrails (confidence gating), JWT-derived access scoping, and a CI-gated evaluation harness with dual **LLM-as-Judge** scoring (Claude Opus + GPT-4o).
-
-**AI Developer Assistant Platform** — multi-agent agentic RAG on AWS Bedrock:
-- Migrated a single-PDF chatbot into a **ReAct-based agentic RAG** system on **AWS Bedrock** across 7 knowledge bases.
-- Built a **FalkorDB code knowledge graph** over 9 repositories and a multi-agent orchestration layer (Supervisor / Researcher / Coder / Writer).
-- Shipped an **MCP server** exposing 40+ tools across Slack, CLI, web, and n8n, deployed on **EKS**.
-
-**Member of Technical Staff @ Mavenir** *(Mar 2022 - Oct 2023)*
-
-- Built a high-frequency **Go** service: polls CouchDB every 100ms, matches epoch-time triggers, dispatches notifications, and auto-expires entries using goroutines and channels for concurrent, non-blocking delivery at telecom scale.
-- Used **Singlestore** for distributed data storage across Go microservices in production.
-- Designed versioned **OpenAPI** specs in Go, cutting migration effort across API versions.
-- Contributed to **NWDAF** on a Go microservice architecture deployed on **Kubernetes**.
+**Education:** PG-DAC, Advanced Computing · B.Tech, Electronics & Telecommunication
 
 ---
 
 ### 🏆 Certifications
 
-- 🤖 **Claude with the Anthropic API** · Anthropic *(2026)*
-- 🤖 **Sub-Agent Skill** · Anthropic *(2026)*
-- 🤖 **Agent Skill** · Anthropic *(2026)*
+- **Claude with the Anthropic API** · Anthropic · 2026
+- **Agent Skills** · Anthropic · 2026
+- **Sub-Agents** · Anthropic · 2026
+
+---
+
+### 📈 GitHub activity
+
+![GitHub stats](https://github-readme-stats.vercel.app/api?username=akashnikam25&show_icons=true&hide_border=true)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=akashnikam25&layout=compact&hide_border=true)
 
 ---
 
 ### 💬 Ask me about
 
-- Building and shipping AI agents in production (not just prototypes)
-- Agentic systems with Claude, MCP, and sub-agents
-- RAG, vector search, and evals that prove it works
-- Go microservices, gRPC, and event-driven backends
+- Taking AI agents from demo to production, with real users and real permissions
+- Evals and release gates that decide whether a change ships
+- RAG that says "not found" instead of guessing
+- MCP tools, tool calling and multi-agent routing
 
----
-
-### 🤝 Connect with Me
-
-- 🌐 Portfolio: [akashnikam25.github.io](https://akashnikam25.github.io)
-- 💼 LinkedIn: [akash-nikam-profile](https://linkedin.com/in/akash-nikam-profile)
-- 🐙 GitHub: [akashnikam25](https://github.com/akashnikam25)
-
----
-
-*"I work at the intersection of backend engineering and applied AI: not as a researcher, but as someone who ships things and then builds the tooling that makes shipping faster."*
+*I measure before I claim, and I'd rather say "I haven't built that yet" and go build it than fake my way through.*
